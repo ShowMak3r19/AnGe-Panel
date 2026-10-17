@@ -19,4 +19,6 @@
 
 ## NAS 更新
 
+本 Fork 发布镜像为 `ghcr.io/showmak3r19/ange-panel:latest`。已有部署只需替换 Compose 中的 `image`，保留原端口、数据挂载和其他设置，再拉取镜像并重新部署。
+
 修改已包含在本 Fork 的 Docker 构建上下文中，使用仓库根目录的 Dockerfile 构建镜像即可。更新容器前备份现有持久化数据，并沿用原数据卷和端口映射。此次代码交付不会自动替换现有 NAS 容器或导航配置。

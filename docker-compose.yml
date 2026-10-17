@@ -1,6 +1,6 @@
 services:
   ange-panel:
-    image: ghcr.io/liandu2024/ange-panel:v2.04
+    image: ghcr.io/showmak3r19/ange-panel:latest
     container_name: ange-panel
     volumes:
       - ./data:/data
