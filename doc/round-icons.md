@@ -19,6 +19,8 @@
 
 ## NAS 更新
 
+雾灰紫壁纸使用 `/uploads/wallpapers/glass-mist-desktop-v1.png` 作为背景。竖屏时自动显示同目录下的 `glass-mist-mobile-v1.png`，横屏保持横版图；切换到其他背景时，这条适配规则不会生效。
+
 本 Fork 发布镜像为 `ghcr.io/showmak3r19/ange-panel:latest`。已有部署只需替换 Compose 中的 `image`，保留原端口、数据挂载和其他设置，再拉取镜像并重新部署。
 
 修改已包含在本 Fork 的 Docker 构建上下文中，使用仓库根目录的 Dockerfile 构建镜像即可。更新容器前备份现有持久化数据，并沿用原数据卷和端口映射。此次代码交付不会自动替换现有 NAS 容器或导航配置。

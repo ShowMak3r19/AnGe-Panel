@@ -1,0 +1,6 @@
+/* 雾灰紫壁纸在竖屏使用独立构图，避免横图中心裁切。 */
+@media (orientation: portrait) {
+  .wallpaper[style*="glass-mist-desktop-v1.png"] {
+    background-image: url('/uploads/wallpapers/glass-mist-mobile-v1.png') !important;
+  }
+}
